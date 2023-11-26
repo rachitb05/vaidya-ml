@@ -1,11 +1,6 @@
 # Disease Prediction based on Symtoms
 # Importing Libraries
-import matplotlib
-matplotlib.use('Agg')
-from mpl_toolkits.mplot3d import Axes3D
 from sklearn.preprocessing import StandardScaler
-import matplotlib.pyplot as plt
-# from tkinter import *
 import numpy as np
 import pandas as pd
 import os
