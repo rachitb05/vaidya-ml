@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, origins=['https://vaidya32.vercel.app'])
+CORS(app, origins=['https://vaidya32.vercel.app'], supports_credentials=True)
 
 # List of the symptoms is listed here in list l1.
 
